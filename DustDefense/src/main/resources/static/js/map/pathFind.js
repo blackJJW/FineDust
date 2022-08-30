@@ -214,7 +214,7 @@ var distance = document.getElementById("distance");
 var duration = document.getElementById("duration");
 
 const printRoute = async (start, destination) => {
-   let response = await fetch('https://api.openrouteservice.org/v2/directions/cycling-regular?api_key=5b3ce3597851110001cf624888ae0402478a4e078fb90dfac4b683ab&start=' 
+   let response = await fetch('https://api.openrouteservice.org/v2/directions/cycling-regular?api_key=API-Key&start=' 
                + start[0] + ',' + start[1] + '&end=' + destination[0] + ',' + destination[1]);
    let data = null;
    let result = null;
