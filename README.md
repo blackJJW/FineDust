@@ -1,4 +1,4 @@
-# 자전거 경로 안내와 이동 거리 동안의 미세먼지 흡입량 계산 서비스
+# 자전거 경로 안내와 이동 거리 동안의 미세먼지 흡입량 계산 서비스 (1)
 
 ---
 
@@ -121,7 +121,7 @@
     - [https://born2bedeveloper.tistory.com/14](https://born2bedeveloper.tistory.com/14)
 - **파일 경로**
     - **DustDefense → src → main → resources → application.properties**
-- **email 주소 입력**
+- **email 주소, 비밀번호 입력**
     
     ![Untitled](img/Untitled%204.png)
     

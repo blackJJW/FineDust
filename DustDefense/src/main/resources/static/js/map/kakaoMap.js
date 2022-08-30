@@ -121,7 +121,7 @@ function displayArea(area) {
 //-----------------------------------------------------------------------------------------------------------------------
 
 const getPollutionVal = async (code, type) => {
-	const response = await fetch('http://openapi.seoul.go.kr:8088/41796f7462746d7638397263707561/json/ListAirQualityByDistrictService/1/5/' + code);
+	const response = await fetch('http://openapi.seoul.go.kr:8088/API-Key/json/ListAirQualityByDistrictService/1/5/' + code);
 	if (response.status === 200){
 		const data = await response.json();
 		return data.ListAirQualityByDistrictService.row[0][type];
